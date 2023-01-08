@@ -1,0 +1,34 @@
+@font-face {
+    font-family: "sweetnovember";
+    src: url('../../fonts/sweet-nov.otf');
+}
+@font-face {
+    font-family: "fullpack";
+    src: url('../../fonts/full-pack.ttf');
+}
+
+.time p {
+    margin-top: 0px;
+    font-family: "fullpack", monospace;
+    color:#abff57;
+    font-size:200px;
+}
+
+.time .smallDay {
+    font-family:"sweetnovember", sans-serif;
+    color: #231f73;
+    font-size:70px;
+    font-weight:bold;
+}
+
+@media screen and (max-width: 1068px) {
+    .time p {
+        font-size:100px;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1068px) {
+    .time p {
+        font-size:200px;
+    }
+}
